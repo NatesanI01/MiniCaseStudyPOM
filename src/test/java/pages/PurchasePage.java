@@ -61,8 +61,10 @@ public class PurchasePage extends TestBase{
 		wait.until(ExpectedConditions.elementToBeClickable(purchaseBtn));
 		purchaseBtn.click();
 		Thread.sleep(1000);
+	}
+	public void success() {
 		successMsg.click();
-	}	
+	}
 
 }
 
