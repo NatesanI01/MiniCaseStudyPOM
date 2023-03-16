@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="POMSuite" duration-ms="33243" started-at="2023-03-16T18:57:54 IST" finished-at="2023-03-16T18:58:27 IST">
+  <suite name="POMSuite" duration-ms="34360" started-at="2023-03-16T19:26:33 IST" finished-at="2023-03-16T19:27:08 IST">
     <groups>
     </groups>
-    <test name="POMTest" duration-ms="33243" started-at="2023-03-16T18:57:54 IST" finished-at="2023-03-16T18:58:27 IST">
+    <test name="POMTest" duration-ms="34360" started-at="2023-03-16T19:26:33 IST" finished-at="2023-03-16T19:27:08 IST">
       <class name="testScripts.ProductStore">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.ProductStore@5427c60c]" name="setup" is-config="true" duration-ms="5053" started-at="2023-03-16T18:57:54 IST" finished-at="2023-03-16T18:57:59 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testScripts.ProductStore@5427c60c]" name="setup" is-config="true" duration-ms="6148" started-at="2023-03-16T19:26:33 IST" finished-at="2023-03-16T19:26:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:1, instance:testScripts.ProductStore@5427c60c]" name="login" duration-ms="3429" started-at="2023-03-16T18:57:59 IST" finished-at="2023-03-16T18:58:02 IST">
+        <test-method status="PASS" signature="login()[pri:1, instance:testScripts.ProductStore@5427c60c]" name="login" duration-ms="3249" started-at="2023-03-16T19:26:40 IST" finished-at="2023-03-16T19:26:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="4" started-at="2023-03-16T18:58:02 IST" finished-at="2023-03-16T18:58:02 IST">
+        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="3" started-at="2023-03-16T19:26:43 IST" finished-at="2023-03-16T19:26:43 IST">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishExtent -->
-        <test-method status="PASS" signature="addItem(java.lang.String,java.lang.String)[pri:2, instance:testScripts.ProductStore@5427c60c]" name="addItem" duration-ms="5429" started-at="2023-03-16T18:58:03 IST" data-provider="search" finished-at="2023-03-16T18:58:08 IST">
+        <test-method status="PASS" signature="addItem(java.lang.String,java.lang.String)[pri:2, instance:testScripts.ProductStore@5427c60c]" name="addItem" duration-ms="5686" started-at="2023-03-16T19:26:43 IST" data-provider="search" finished-at="2023-03-16T19:26:49 IST">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItem -->
-        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="1" started-at="2023-03-16T18:58:08 IST" finished-at="2023-03-16T18:58:08 IST">
+        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T19:26:49 IST" finished-at="2023-03-16T19:26:49 IST">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishExtent -->
-        <test-method status="PASS" signature="addItem(java.lang.String,java.lang.String)[pri:2, instance:testScripts.ProductStore@5427c60c]" name="addItem" duration-ms="4676" started-at="2023-03-16T18:58:08 IST" data-provider="search" finished-at="2023-03-16T18:58:13 IST">
+        <test-method status="PASS" signature="addItem(java.lang.String,java.lang.String)[pri:2, instance:testScripts.ProductStore@5427c60c]" name="addItem" duration-ms="4039" started-at="2023-03-16T19:26:49 IST" data-provider="search" finished-at="2023-03-16T19:26:53 IST">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItem -->
-        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T18:58:13 IST" finished-at="2023-03-16T18:58:13 IST">
+        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T19:26:53 IST" finished-at="2023-03-16T19:26:53 IST">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishExtent -->
-        <test-method status="PASS" signature="addItem(java.lang.String,java.lang.String)[pri:2, instance:testScripts.ProductStore@5427c60c]" name="addItem" duration-ms="3983" started-at="2023-03-16T18:58:13 IST" data-provider="search" finished-at="2023-03-16T18:58:17 IST">
+        <test-method status="PASS" signature="addItem(java.lang.String,java.lang.String)[pri:2, instance:testScripts.ProductStore@5427c60c]" name="addItem" duration-ms="4772" started-at="2023-03-16T19:26:53 IST" data-provider="search" finished-at="2023-03-16T19:26:58 IST">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItem -->
-        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T18:58:17 IST" finished-at="2023-03-16T18:58:17 IST">
+        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T19:26:58 IST" finished-at="2023-03-16T19:26:58 IST">
           <params>
             <param index="0">
               <value>
@@ -107,11 +107,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishExtent -->
-        <test-method status="PASS" signature="deleteItemcart()[pri:3, instance:testScripts.ProductStore@5427c60c]" name="deleteItemcart" duration-ms="5198" started-at="2023-03-16T18:58:17 IST" finished-at="2023-03-16T18:58:22 IST">
+        <test-method status="PASS" signature="deleteItemcart()[pri:3, instance:testScripts.ProductStore@5427c60c]" name="deleteItemcart" duration-ms="5245" started-at="2023-03-16T19:26:58 IST" finished-at="2023-03-16T19:27:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteItemcart -->
-        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T18:58:22 IST" finished-at="2023-03-16T18:58:22 IST">
+        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="1" started-at="2023-03-16T19:27:03 IST" finished-at="2023-03-16T19:27:03 IST">
           <params>
             <param index="0">
               <value>
@@ -122,11 +122,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishExtent -->
-        <test-method status="PASS" signature="placeOrder()[pri:4, instance:testScripts.ProductStore@5427c60c]" name="placeOrder" duration-ms="4370" started-at="2023-03-16T18:58:22 IST" finished-at="2023-03-16T18:58:26 IST">
+        <test-method status="PASS" signature="placeOrder()[pri:4, instance:testScripts.ProductStore@5427c60c]" name="placeOrder" duration-ms="4182" started-at="2023-03-16T19:27:03 IST" finished-at="2023-03-16T19:27:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- placeOrder -->
-        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="0" started-at="2023-03-16T18:58:26 IST" finished-at="2023-03-16T18:58:26 IST">
+        <test-method status="PASS" signature="finishExtent(org.testng.ITestResult)[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finishExtent" is-config="true" duration-ms="1" started-at="2023-03-16T19:27:07 IST" finished-at="2023-03-16T19:27:07 IST">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishExtent -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finish" is-config="true" duration-ms="894" started-at="2023-03-16T18:58:26 IST" finished-at="2023-03-16T18:58:27 IST">
+        <test-method status="PASS" signature="finish()[pri:0, instance:testScripts.ProductStore@5427c60c]" name="finish" is-config="true" duration-ms="895" started-at="2023-03-16T19:27:07 IST" finished-at="2023-03-16T19:27:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
