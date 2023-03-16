@@ -59,7 +59,9 @@ public class PurchasePage extends TestBase{
 		month.sendKeys(prop.getProperty("month"));
 		year.sendKeys(prop.getProperty("year"));
 		wait.until(ExpectedConditions.elementToBeClickable(purchaseBtn));
-		purchaseBtn.click();	
+		purchaseBtn.click();
+		Thread.sleep(1000);
+		successMsg.click();
 	}	
 
 }

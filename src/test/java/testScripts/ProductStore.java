@@ -83,8 +83,8 @@ public class ProductStore extends TestBase{
 	  purchasePage=cartPage.placeorder();
 	  purchasePage.purchase();
 	  Assert.assertEquals(purchasePage.ordermsg.getText(), "Thank you for your purchase!");
-	  Thread.sleep(1000);
-	  purchasePage.successMsg.click();
+//	  Thread.sleep(1000);
+//	  purchasePage.successMsg.click();
 //	  Thread.sleep(1000);
   }
   
