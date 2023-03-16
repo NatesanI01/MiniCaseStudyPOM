@@ -35,7 +35,7 @@ public class ProductStore extends TestBase{
 	  initialize();
   }
   @Test(priority=1)
-  public void Login() throws InterruptedException {
+  public void login() throws InterruptedException {
 	  homePage=new HomePage();
 	  loginPage=homePage.login();
 	  loginPage.loginPage(prop.getProperty("username"), prop.getProperty("pwd"));
@@ -73,7 +73,7 @@ public class ProductStore extends TestBase{
   public void deleteItemcart() throws InterruptedException{
 	  homePage=new HomePage();
 	  cartPage=homePage.navigateCart();
-	  cartPage.DeleteItemTest();
+	  cartPage.deleteItemTest();
 	  Assert.assertNotEquals(cartPage.beforePrice, cartPage.afterPrice);
   }
   

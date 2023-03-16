@@ -27,7 +27,7 @@ public class CartPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void DeleteItemTest() throws InterruptedException {
+	public void deleteItemTest() throws InterruptedException {
 		extentTest=reports.createTest("Delete an Item in Cart Test");
 		wait=new WebDriverWait(driver,Duration.ofMinutes(1));
 		beforePrice=rate.getText();
