@@ -36,6 +36,7 @@ public class ProductStore extends TestBase{
   }
   @Test(priority=1)
   public void login() throws InterruptedException {
+	  extentTest=reports.createTest("Login Page Test");
 	  homePage=new HomePage();
 	  loginPage=homePage.login();
 	  loginPage.loginPage(prop.getProperty("username"), prop.getProperty("pwd"));
@@ -44,6 +45,7 @@ public class ProductStore extends TestBase{
   
   @Test(priority=2, dataProvider="search")
   public void addItem(String catagory,String item) {
+	  extentTest=reports.createTest("Add Multiple Item To Cart Test");
 	  homePage=homePage.addItem(catagory, item);
 	  cartPage=homePage.navigateCart();
 	  boolean flag=false;
@@ -71,6 +73,7 @@ public class ProductStore extends TestBase{
   
   @Test(priority=3)
   public void deleteItemcart() throws InterruptedException{
+	  extentTest=reports.createTest("Delete an Item in Cart Test");
 	  homePage=new HomePage();
 	  cartPage=homePage.navigateCart();
 	  cartPage.deleteItemTest();
@@ -79,6 +82,7 @@ public class ProductStore extends TestBase{
   
   @Test(priority=4)
   public void placeOrder() throws InterruptedException {
+	  extentTest=reports.createTest("Place an Order Test");
 	  cartPage=new CartPage();
 	  purchasePage=cartPage.placeorder();
 	  purchasePage.purchase();

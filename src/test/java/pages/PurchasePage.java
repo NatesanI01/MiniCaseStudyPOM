@@ -49,7 +49,7 @@ public class PurchasePage extends TestBase{
 	}
 	
 	public void purchase() throws InterruptedException {
-		extentTest=reports.createTest("Place an Order Test");
+//		extentTest=reports.createTest("Place an Order Test");
 		wait=new WebDriverWait(driver,Duration.ofMinutes(1));
 		Thread.sleep(1000);
 		name.sendKeys(prop.getProperty("name"));

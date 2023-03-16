@@ -24,7 +24,7 @@ public class LoginPage extends TestBase{
 	}
 	
 	public void loginPage(String uname,String pwd) throws InterruptedException {
-		extentTest=reports.createTest("Login Page Test");
+//		extentTest=reports.createTest("Login Page Test");
 		username.sendKeys(uname);
 		Thread.sleep(1000);
 		password.sendKeys(pwd);
