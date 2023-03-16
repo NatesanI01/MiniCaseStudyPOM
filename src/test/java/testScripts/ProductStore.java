@@ -44,8 +44,6 @@ public class ProductStore extends TestBase{
   
   @Test(priority=2, dataProvider="search")
   public void addItem(String catagory,String item) {
-	  homePage=new HomePage();
-	  cartPage=new CartPage();
 	  homePage=homePage.addCart(catagory, item);
 	  cartPage=homePage.navigateCart();
 	  boolean flag=false;
@@ -74,7 +72,6 @@ public class ProductStore extends TestBase{
   @Test(priority=3)
   public void deleteItemcart() throws InterruptedException{
 	  homePage=new HomePage();
-	  cartPage=new CartPage();
 	  cartPage=homePage.navigateCart();
 	  cartPage.DeleteItemTest();
 	  Assert.assertNotEquals(cartPage.beforePrice, cartPage.afterPrice);
@@ -83,7 +80,6 @@ public class ProductStore extends TestBase{
   @Test(priority=4)
   public void placeOrder() throws InterruptedException {
 	  cartPage=new CartPage();
-	  purchasePage=new PurchasePage();
 	  purchasePage=cartPage.placeorder();
 	  purchasePage.purchase();
 	  Assert.assertEquals(purchasePage.ordermsg.getText(), "Thank you for your purchase!");

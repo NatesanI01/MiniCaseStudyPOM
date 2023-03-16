@@ -46,7 +46,7 @@ public class HomePage extends TestBase {
 	}
 	public HomePage addCart(String catagory,String item) {
 		extentTest=reports.createTest("Add Multiple Item To Cart Test");
-		wait=new WebDriverWait(driver,Duration.ofSeconds(30));
+		wait=new WebDriverWait(driver,Duration.ofMinutes(1));
 		homePage.click();
 		String catagoryPath="//a[text()='"+catagory+"']";
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(catagoryPath)));

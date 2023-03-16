@@ -5,7 +5,12 @@
     <classes>
       <class name="testScripts.ProductStore">
         <methods>
+          <include name="placeOrder"/>
+          <include name="addItem" invocation-numbers="0 1 2"/>
+          <include name="deleteItemcart"/>
           <include name="Login"/>
+          <include name="finish"/>
+          <include name="finishExtent"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testScripts.ProductStore -->
