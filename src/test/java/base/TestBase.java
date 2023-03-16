@@ -7,6 +7,7 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -43,7 +44,9 @@ public class TestBase {
 		String strBrowser=prop.getProperty("browser");
 //		if(strBrowser.equalsIgnoreCase("chrome")) {
 //			WebDriverManager.chromedriver().setup();
-//			driver=new ChromeDriver();
+//			ChromeOptions options=new ChromeOptions();
+//			options.addArguments("--remote-allow-origins=*");
+//			driver=new ChromeDriver(options);
 //		}
 		if(strBrowser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();

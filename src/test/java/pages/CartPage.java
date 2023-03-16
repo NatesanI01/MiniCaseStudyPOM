@@ -29,7 +29,7 @@ public class CartPage extends TestBase{
 	
 	public void DeleteItemTest() throws InterruptedException {
 		extentTest=reports.createTest("Delete an Item in Cart Test");
-		wait=new WebDriverWait(driver,Duration.ofSeconds(100));
+		wait=new WebDriverWait(driver,Duration.ofMinutes(1));
 		beforePrice=rate.getText();
 		System.out.println(beforePrice);
 		deleteBtn.click();
