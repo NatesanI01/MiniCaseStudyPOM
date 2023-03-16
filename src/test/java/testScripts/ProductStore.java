@@ -38,7 +38,7 @@ public class ProductStore extends TestBase{
   public void login() throws InterruptedException {
 	  extentTest=reports.createTest("Login Page Test");
 	  homePage=new HomePage();
-	  loginPage=homePage.login();
+	  loginPage=homePage.navigateLogin();
 	  loginPage.loginPage(prop.getProperty("username"), prop.getProperty("pwd"));
 	  Assert.assertEquals(loginPage.successMsg.getText(), "Welcome glass");  
   }

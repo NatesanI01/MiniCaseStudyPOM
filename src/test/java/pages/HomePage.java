@@ -37,10 +37,10 @@ public class HomePage extends TestBase {
 		PageFactory.initElements(driver,this);
 	}
 	
-	public void home() {
+	public void navigateHome() {
 		homePage.click();
 	}
-	public LoginPage login() {
+	public LoginPage navigateLogin() {
 		login.click();
 		return new LoginPage();
 	}
