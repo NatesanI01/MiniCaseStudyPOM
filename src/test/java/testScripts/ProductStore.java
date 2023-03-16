@@ -44,7 +44,7 @@ public class ProductStore extends TestBase{
   
   @Test(priority=2, dataProvider="search")
   public void addItem(String catagory,String item) {
-	  homePage=homePage.addCart(catagory, item);
+	  homePage=homePage.addItem(catagory, item);
 	  cartPage=homePage.navigateCart();
 	  boolean flag=false;
 	  for(WebElement test:homePage.items) {

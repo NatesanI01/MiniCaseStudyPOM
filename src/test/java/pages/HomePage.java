@@ -44,7 +44,7 @@ public class HomePage extends TestBase {
 		login.click();
 		return new LoginPage();
 	}
-	public HomePage addCart(String catagory,String item) {
+	public HomePage addItem(String catagory,String item) {
 		extentTest=reports.createTest("Add Multiple Item To Cart Test");
 		wait=new WebDriverWait(driver,Duration.ofMinutes(1));
 		homePage.click();
